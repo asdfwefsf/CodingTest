@@ -6,5 +6,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 예시 : 영화감독 숍 : 666 포함하면 +1 이렇게 싸그리 올라가면서 전부 탐색하는 것을 의미한다.
 
+# 이분 탐색 (Binary Search) 알고리즘
+UpAndDown 게임 : 시간복잡도0 , 데이터 많으면 실행시간 적어 , 따라서 빅데이터에서 사용하기 좋아 , 조건 : 원소들이 일정한 순서로 정렬되어있어야해.
+
 # 주의사항
 1. while(1) 안 먹힘 : while(true) 하기
