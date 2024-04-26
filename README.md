@@ -8,7 +8,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 1436번 : 영화감독 
 예시 : 영화감독 숍 : 666 포함하면 +1 이렇게 싸그리 올라가면서 전부 탐색하는 것을 의미한다.
 
-# 이분 탐색 (Binary Search) 알고리즘
+# 이분 탐색 (Binary Search) 알고리즘 => .binarySearch
 UpAndDown 게임이라고 생각하면 쉽다.
 -시작점 , 중간점 , 끝점 이 세가지 를 사용하여 탐색의 범위를 설정한다.
 -단계마다 탐색 범위를 2로 나누는 것과 동일하므로 연산 횟수는 log2N에 비례한다.
@@ -16,9 +16,11 @@ UpAndDown 게임이라고 생각하면 쉽다.
 
 ## 백준
 1654번 : 영식이와 성원이의 랜선 자르기
+1920번 : 수찾기 : .binarySearch() 사용하면 쉽다. 
 
 # 주의사항
 1. while(1) 안 먹힘 : while(true) 하기
+2. bufferedReader() 사용하기
 
 # 2024-04-23 
 1. 이분 탐색 알고리즘 개념 정리하기(O)
@@ -27,3 +29,10 @@ UpAndDown 게임이라고 생각하면 쉽다.
 -Array(size) : 사이즈를 size로 갖는 배열 생성
 
 -for (lan in lans) { ... } : lans 배열의 요소를 순회하면서 { ... }에서 요소를 활용한 로직 처리
+
+# import 정리
+1. stack 사용 : import java.util.Stack
+2. StringBuilder 사용 : import java.lang.StringBuilder
+
+# 특이 함수 정리
+1. 이분탐색 사용 : binarySearch
