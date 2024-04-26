@@ -1,12 +1,17 @@
-# CodingTest
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 코틀린 코딩 테스트 : 1일 1알고리즘 ~ 3알고리즘
+백준 연동된 레퍼지토리
+# import 정리
+1. stack 사용 : import java.util.Stack
+2. StringBuilder 사용 : import java.lang.StringBuilder
+
+# 특이 함수 정리
+1. 이분탐색 사용 : binarySearch
 
 # 브루트 포스 (brute force) 알고리즘
 모든 경우의 수를 하나 하나 체크해가면서 정답이 나올 때 까지 실행하는 알고리즘을 의미한다.
 
 ## 백준
-1436번 : 영화감독 
-예시 : 영화감독 숍 : 666 포함하면 +1 이렇게 싸그리 올라가면서 전부 탐색하는 것을 의미한다.
+1436번
 
 # 이분 탐색 (Binary Search) 알고리즘 => .binarySearch
 UpAndDown 게임이라고 생각하면 쉽다.
@@ -15,24 +20,22 @@ UpAndDown 게임이라고 생각하면 쉽다.
 -따라서 시간 복잡도는 o(logN)을 보장한다.
 
 ## 백준
-1654번 : 영식이와 성원이의 랜선 자르기
-1920번 : 수찾기 : .binarySearch() 사용하면 쉽다. 
+1654번 , 1920번(.binarySearch)
 
 # 주의사항
 1. while(1) 안 먹힘 : while(true) 하기
 2. bufferedReader() 사용하기
 
+# 코틀린 기본 문법 정리
+1. Array(size) : 사이즈를 size로 갖는 배열 생성
+
+2.for (lan in lans) { ... } : lans 배열의 요소를 순회하면서 { ... }에서 요소를 활용한 로직 처리
+
 # 2024-04-23 
 1. 이분 탐색 알고리즘 개념 정리하기(O)
-2. 랜선 자르기에 사용된 개념 정리하기(O)
 
 -Array(size) : 사이즈를 size로 갖는 배열 생성
 
 -for (lan in lans) { ... } : lans 배열의 요소를 순회하면서 { ... }에서 요소를 활용한 로직 처리
 
-# import 정리
-1. stack 사용 : import java.util.Stack
-2. StringBuilder 사용 : import java.lang.StringBuilder
 
-# 특이 함수 정리
-1. 이분탐색 사용 : binarySearch
